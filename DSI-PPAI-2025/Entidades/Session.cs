@@ -9,11 +9,11 @@ namespace DSI_PPAI_2025.Entidades
     public class Session
     {
         private DateTime fecha_inicio;
-        private DateTime fecha_fin;
+        private DateTime? fecha_fin;
         private Usuario usuario;
 
     
-        public Session(DateTime fecha_inicio, DateTime fecha_fin, Usuario usuario) 
+        public Session(DateTime fecha_inicio, DateTime? fecha_fin, Usuario usuario) 
         { 
             this.fecha_inicio = fecha_inicio;
             this.fecha_fin = fecha_fin;
@@ -28,5 +28,15 @@ namespace DSI_PPAI_2025.Entidades
         public Usuario Usuario { get => usuario; set => usuario = value; }
 
 
+
+        public Usuario obtenerUsuario()
+        {
+            return this.usuario;
+        }
+
+
+
     }
+
+     
 }

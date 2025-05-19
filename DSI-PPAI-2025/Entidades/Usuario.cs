@@ -32,5 +32,14 @@ namespace DSI_PPAI_2025.Entidades
 
 
 
+        public Empleado getEmpleado()
+        {
+            return this.empleado;
+        }
+
+
+
     }
+
+
 }

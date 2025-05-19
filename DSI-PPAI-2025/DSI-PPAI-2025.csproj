@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boundary\Cerrar\PantDarCierreOrden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\Cerrar\PantDarCierreOrden.Designer.cs">
+      <DependentUpon>PantDarCierreOrden.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boundary\Inicio\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boundary\Inicio\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlDarCierreOrden.cs" />
     <Compile Include="Entidades\CambioEstado.cs" />
     <Compile Include="Entidades\Empleado.cs" />
     <Compile Include="Entidades\EstacionSismologica.cs" />
@@ -63,6 +76,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Boundary\Cerrar\PantDarCierreOrden.resx">
+      <DependentUpon>PantDarCierreOrden.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boundary\Inicio\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,9 +104,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Boundary\" />
-    <Folder Include="Gestor\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

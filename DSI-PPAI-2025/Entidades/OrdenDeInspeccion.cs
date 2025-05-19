@@ -40,8 +40,43 @@ namespace DSI_PPAI_2025.Entidades
         public Estado Estado { get => estado; private set => estado = value; }
         public Empleado Empleado { get => empleado; private set => empleado = value; }
         public EstacionSismologica EstacionSismologica { get => estacionSismologica;private set => estacionSismologica = value; }
-        
 
+
+        public bool esDeEmpleado(Empleado empleado)
+        {
+            return this.empleado.Equals(empleado);
+        }
+
+        public bool esRealizada()
+        {
+            return this.estado.NombreEstado == "Realizada";
+        }
+
+        public Dictionary<string, object> buscarDatos(int i)
+        {
+            Dictionary<string, object> datos = new Dictionary<string, object>();
+
+            datos.Add("numeroOrden", this.getNumeroDeOrden());
+            datos.Add("fechaFinalizacion", this.getFechaHoraFinalizacion(i));
+            datos.Add("nombreEstacion", this.estacionSismologica.getNombre());
+            datos.Add("idSismografo", this.estacionSismologica.obtenerIdSismografo(i));
+
+            return datos;
+        }
+
+        public string getNumeroDeOrden()
+        {
+            
+            return "ORD-" + this.fechaHoraInicio.ToString("yyyyMMddHHmm");
+        }
+
+        public DateTime getFechaHoraFinalizacion(int i)
+        {
+            return this.fechaHoraFinalizacion.AddDays(-i);
+        }
+
+
+         
 
 
 

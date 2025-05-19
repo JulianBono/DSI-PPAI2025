@@ -41,7 +41,20 @@ namespace DSI_PPAI_2025.Entidades
         private int NroCertificadoAdquisicion { get => nroCertificadoAdquisicion; set => nroCertificadoAdquisicion = value; }
 
         //private List<Sismografo> Sismografos { get => sismografos; set => sismografos = value; }  
-        
+    
+
+        public string getNombre()
+        {
+            return this.nombre;
+        }
+
+        public int obtenerIdSismografo(int i)
+        {
+ 
+
+
+            return i; // Ejemplo
+        }
 
     }
 }

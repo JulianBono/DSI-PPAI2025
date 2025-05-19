@@ -34,5 +34,9 @@ namespace DSI_PPAI_2025.Entidades
         public Rol Rol { get => rol; set => rol = value; }
 
 
+
+       
     }
+
+
 }

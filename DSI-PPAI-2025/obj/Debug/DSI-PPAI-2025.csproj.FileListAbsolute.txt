@@ -7,3 +7,14 @@ C:\Users\julian\source\repos\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.csproj.Genera
 C:\Users\julian\source\repos\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.csproj.CoreCompileInputs.cache
 C:\Users\julian\source\repos\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.exe
 C:\Users\julian\source\repos\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.pdb
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\bin\Debug\DSI-PPAI-2025.exe.config
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\bin\Debug\DSI-PPAI-2025.exe
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\bin\Debug\DSI-PPAI-2025.pdb
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.csproj.AssemblyReference.cache
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI_PPAI_2025.Boundary.Inicio.resources
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI_PPAI_2025.Properties.Resources.resources
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.csproj.GenerateResource.cache
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.csproj.CoreCompileInputs.cache
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.exe
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI-PPAI-2025.pdb
+C:\Users\julian\source\repos\JulianBono\DSI-PPAI2025\DSI-PPAI-2025\obj\Debug\DSI_PPAI_2025.Boundary.Cerrar.PantDarCierreOrden.resources

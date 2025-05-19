@@ -25,6 +25,17 @@ namespace DSI_PPAI_2025.Entidades
 
 
 
+   
+
+        public bool esAmbito(string ambito)
+        {
+            return this.ambito.Equals(ambito);
+        }
+
+        public bool esRealizada()
+        {
+            return this.nombreEstado == "Realizada";
+        }
 
 
     }
